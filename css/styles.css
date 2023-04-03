@@ -1495,3 +1495,8 @@ a:hover {
   .py-6 {
 	padding: 120px 0px;
   }
+  .shadow{
+	box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
+	-webkit-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
+	-moz-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
+  }
