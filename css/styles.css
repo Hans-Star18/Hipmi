@@ -92,7 +92,9 @@ h6 {
 	font-size: 1rem;
 	line-height: 1.375rem;
 }
-
+.tag{
+	
+}
 .p-large {
 	color: #22343D;
 	font-size: 18px;
@@ -625,14 +627,16 @@ a:hover {
 	text-underline-offset: 22px;
 	text-decoration-color: #0092ff;
 }
-
+.h1-display {
+	color: #000;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0px;
+}
 .accordion-1 .p-heading {
 	color: #000;
 	text-align: center;
-}
-
-.accordion-1 .accordion {
-
 }
 
 .accordion-1 .accordion-item {
@@ -682,9 +686,11 @@ a:hover {
 	border: none;
 	background-color: transparent;
 }
-
+.accordion-flush .accordion-item .accordion-button{
+	background-color: white;
+}
 .accordion-1 .accordion-header button {
-	padding: 0;
+	/* padding: 0;
 	border: none;
 	background-color: transparent;
 	color: #000;
@@ -693,7 +699,7 @@ a:hover {
 	font-size: 1.25rem;
 	line-height: 1.625rem;
 	letter-spacing: -0.4px;
-	text-align: left;
+	text-align: left; */
 }
 
 .accordion-1 .accordion-header button:after {
@@ -875,7 +881,9 @@ a:hover {
 	text-align: center;
 	background-color: #fcfafb;
 }
-
+.hubungi {
+	background-color: #fcfafb;
+}
 .footer .decoration-circles {
 	position: absolute;
 	top: 96px;
@@ -1499,4 +1507,13 @@ a:hover {
 	box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
 	-webkit-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
 	-moz-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
-  }
+}
+.fa-brands{
+	font-size: 80px;
+}
+.fa-solid{
+	font-size: 80px;
+}
+.text-justify{
+	text-align: justify;
+}
