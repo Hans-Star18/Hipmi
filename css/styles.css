@@ -92,9 +92,6 @@ h6 {
 	font-size: 1rem;
 	line-height: 1.375rem;
 }
-.tag{
-	
-}
 .p-large {
 	color: #22343D;
 	font-size: 18px;
@@ -482,10 +479,6 @@ a:hover {
 	margin-bottom: 2.25rem;
 }
 
-.header .image-container {
-	/* margin-top: 5rem; */
-}
-
 
 /********************/
 /*     Services     */
@@ -613,10 +606,6 @@ a:hover {
 	top: 500px;
 	left: -30px;
 }
-.accordion-1 {
-	/* padding-top: 9.25rem;
-	padding-bottom: 9.75rem; */
-}
 .h1-heading {
 	color: #000;
 	font-size: 32px;
@@ -688,18 +677,6 @@ a:hover {
 }
 .accordion-flush .accordion-item .accordion-button{
 	background-color: white;
-}
-.accordion-1 .accordion-header button {
-	/* padding: 0;
-	border: none;
-	background-color: transparent;
-	color: #000;
-	box-shadow: none;
-	font-weight: 700;
-	font-size: 1.25rem;
-	line-height: 1.625rem;
-	letter-spacing: -0.4px;
-	text-align: left; */
 }
 
 .accordion-1 .accordion-header button:after {
@@ -1403,20 +1380,12 @@ a:hover {
 		margin-top: 6rem;
 		margin-right: 3rem;
 	}
-
-	.basic-2 .image-container {
-		/* text-align: right; */
-	}
 	/* end of details 2 */
 
 
 	/* Features */
 	.accordion-1 .accordion {
 		margin-bottom: 0;
-	}
-
-	.accordion-1 .image-container {
-	
 	}
 	/* end of features */
 
@@ -1516,4 +1485,14 @@ a:hover {
 }
 .text-justify{
 	text-align: justify;
+}
+.images{
+	object-fit: contain;
+	position: relative;
+	top: -50px;
+	bottom: 0;
+	margin-bottom: -50px;
+}
+.mb-50{
+	margin-bottom: 90px;
 }
