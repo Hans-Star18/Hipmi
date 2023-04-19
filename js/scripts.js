@@ -93,7 +93,7 @@ var imageSlider = new Swiper('.image-slider', {
 	},
 	loop: true,
 	spaceBetween: 50,
-	slidesPerView: 5,
+	slidesPerView: 4,
 	breakpoints: {
 		// when window is <= 575px
 		575: {

@@ -465,10 +465,16 @@ a:hover {
 .header {
 	padding-top: 8rem;
 	padding-bottom: 4em;
-	/* background: url('../images/header-background.jpg') center center no-repeat;
-	background-size: cover; */
 	text-align: left;
 	background-color: #fcfafb;
+}
+.header-detail{
+	width: 100%;
+	height: 100vh;
+	padding-top: 8rem;
+	padding-bottom: 4em;
+	text-align: left;
+	background-color: #0092ff;
 }
 
 .header .h1-large {
@@ -668,9 +674,10 @@ a:hover {
 	font-size: 1.25rem;
 	line-height: 44px;
 }
-
+.accordion-button{
+	line-height: 35px !important;
+}
 .accordion-1 .accordion-header {
-	margin-left: 4.125rem;
 	padding: 0.5rem 0 0.5rem 0;
 	border: none;
 	background-color: transparent;
@@ -1018,7 +1025,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 1rem
+    margin: 1rem;
 }
 
 @media (min-width:768px) {
@@ -1029,7 +1036,7 @@ a:hover {
         width: 3.46rem;
         position: absolute;
         left: 7.5rem;
-        top: .3125rem
+        top: .3125rem;
     }
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
@@ -1038,13 +1045,13 @@ a:hover {
         width: 3.8125rem;
         position: absolute;
         right: 7.5rem;
-        top: .3125rem
+        top: .3125rem;
     }
 }
 
 .timeline-steps .timeline-content {
     width: 10rem;
-    text-align: center
+    text-align: center;
 }
 
 .timeline-steps .timeline-content .inner-circle {
@@ -1054,7 +1061,7 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    background-color: #3b82f6;
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
@@ -1065,7 +1072,7 @@ a:hover {
     width: 3rem;
     min-width: 3rem;
     border-radius: 6.25rem;
-    opacity: .5
+    opacity: .5;
 }
 
 /*************************/
@@ -1074,6 +1081,7 @@ a:hover {
 @media screen and (max-width:767px){
     .main-timeline .timeline{ width: 100%; }
 }
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1105,6 +1113,8 @@ a:hover {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+	
+
 }
 /* end of min-width 768px */
 
@@ -1495,4 +1505,35 @@ a:hover {
 }
 .mb-50{
 	margin-bottom: 90px;
+}
+.ticket{
+	position: relative;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-shadow: 12px 12px 11px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-top: -150px;
+	padding: 30px 30px;
+}
+.right{
+	border-left: 1px dashed #404040;
+}
+@media (max-width: 576px){
+	.ticket{
+		margin-top: -50px;
+	}
+	.right{
+		border-left: none;
+		border-top: 1px dashed #404040;
+	}
+}
+@media (max-width: 768px){
+	.ticket{
+		margin-top: -150px;
+	}
+	.right{
+		border-left: none;
+		border-top: 1px dashed #404040;
+	}
 }
