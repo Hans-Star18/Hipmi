@@ -1529,6 +1529,15 @@ a:hover {
 	}
 }
 @media (max-width: 768px){
+	.h1-large{
+		font-size: 25px;
+	}
+	.tagline{
+		font-size: 25px;
+	}
+	.p-large{
+		font-size: 16px;
+	}
 	.ticket{
 		margin-top: -80px;
 	}
