@@ -470,7 +470,7 @@ a:hover {
 }
 .header-detail{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 4em;
 	text-align: left;
@@ -1139,7 +1139,7 @@ a:hover {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
+		padding-top: 10px;
 		background-color: #fcfafb;
 		box-shadow: none;
 		transition: all 0.2s;
@@ -1513,7 +1513,7 @@ a:hover {
 	border: 1px solid #000000;
 	box-shadow: 12px 12px 11px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
-	margin-top: -150px;
+	margin-top: -130px;
 	padding: 30px 30px;
 }
 .right{
@@ -1530,7 +1530,7 @@ a:hover {
 }
 @media (max-width: 768px){
 	.ticket{
-		margin-top: -150px;
+		margin-top: -80px;
 	}
 	.right{
 		border-left: none;
