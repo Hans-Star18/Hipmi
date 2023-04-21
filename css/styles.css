@@ -1546,3 +1546,12 @@ a:hover {
 		border-top: 1px dashed #404040;
 	}
 }
+@media (max-width: 992px) {
+	.tagline{
+		font-size: 30px;
+	}
+	.right{
+		border-left: none;
+		border-top: 1px dashed #404040;
+	}
+ }
