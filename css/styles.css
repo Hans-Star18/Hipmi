@@ -1462,6 +1462,12 @@ a:hover {
 	box-sizing: border-box;
 
   }
+  .countdown-promo div{
+	/* margin: 20px 10px; */
+	padding: 0px 8px;
+	box-sizing: border-box;
+
+  }
   .countdown-container div p{
 	margin: 10px 0px;
 
