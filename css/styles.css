@@ -1478,7 +1478,7 @@ a:hover {
 	width: 100%;
 	height: 100vh;
 	background-color: #fcfafb;
-}
+  }
   .py-6 {
 	padding: 120px 0px;
   }
@@ -1486,7 +1486,11 @@ a:hover {
 	box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
 	-webkit-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
 	-moz-box-shadow: 10px 10px 7px -7px rgba(0,0,0,0.47);
-}
+  }
+  .br-side{
+	border-radius: 0px 0px 0px 30px;
+	font-size: 13px;
+  }
 .fa-brands{
 	font-size: 80px;
 }
@@ -1519,6 +1523,14 @@ a:hover {
 .right{
 	border-left: 1px dashed #404040;
 }
+.kupon{
+	border: 1px solid orange;
+	border-radius: 10px;
+}
+.potongan{
+	background-color: orange;
+	border-radius: 10px 0px 0px 10px;
+}
 @media (max-width: 576px){
 	.ticket{
 		margin-top: -50px;
@@ -1526,6 +1538,10 @@ a:hover {
 	.right{
 		border-left: none;
 		border-top: 1px dashed #404040;
+	}
+	.potongan{
+		background-color: orange;
+		border-radius: 10px 10px 0px 0px;
 	}
 }
 @media (max-width: 992px){
@@ -1544,5 +1560,9 @@ a:hover {
 	.right{
 		border-left: none;
 		border-top: 1px dashed #404040;
+	}
+	.potongan{
+		background-color: orange;
+		border-radius: 10px 10px 0px 0px;
 	}
 }
