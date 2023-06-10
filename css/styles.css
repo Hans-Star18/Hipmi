@@ -569,7 +569,6 @@ a:hover {
 }
 
 .basic-1 .image-container {
-	margin-bottom: 4rem;
 }
 
 .basic-1 h2 {
@@ -1358,8 +1357,8 @@ a:hover {
 	
 	.header .image-container img {
 		position: absolute;
-		bottom: -470px;
-		left: 60px;
+		bottom: -400px;
+		left: 40px;
 		max-width: 500;
 	}
 	/* end of header */
