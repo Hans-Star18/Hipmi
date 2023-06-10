@@ -1528,6 +1528,16 @@ a:hover {
 	background: white;
 	border-radius: 0px 10px 10px 0px;
 }
+.h2-heading{
+	color: #000;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0px;
+	text-decoration: underline;
+	text-underline-offset: 22px;
+	text-decoration-color: #0092ff;
+}
 @media (max-width: 576px){
 	.ticket{
 		margin-top: -50px;
@@ -1539,6 +1549,16 @@ a:hover {
 	.potongan-text{
 		background: white;
 		border-radius: 0px 0px 10px 10px;
+	}
+	.h2-heading{
+		color: #000;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 48px;
+		letter-spacing: 0px;
+		text-decoration: underline;
+		text-underline-offset: 22px;
+		text-decoration-color: #0092ff;
 	}
 }
 @media (max-width: 992px){
