@@ -1365,9 +1365,6 @@ a:hover {
 
 
 	/* Services */
-	.cards-1 .card {
-		width: 310px;
-	}
 	
 	.cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 5.5rem;

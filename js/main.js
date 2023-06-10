@@ -44,7 +44,7 @@ let detikItem = document.querySelector("#detik");
 
 
 let countDownPromo = () => {
-  let futureDate = new Date("10 Jun 2023");
+  let futureDate = new Date("15 Jun 2023");
 
   var x = setInterval(() => {
     let currentDate = new Date();
